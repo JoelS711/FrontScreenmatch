@@ -54,6 +54,15 @@ main {
   height: 9rem;
 }
 
+.header__opciones span{
+  cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.header__opciones span:hover {
+  transform: scale(1.2);
+}
+
 .material-symbols-outlined {
   color: white;
   font-size: 48px;
