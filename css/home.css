@@ -1,10 +1,8 @@
 body {
-  background: linear-gradient(
-    180.61deg,
-    #000000 25.16%,
-    #4f0404 80%,
-    #cd4040 100%
-  );
+  background: linear-gradient(180.61deg,
+      #000000 25.16%,
+      #4f0404 80%,
+      #cd4040 100%);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -19,7 +17,7 @@ h1 {
 
 select,
 option {
-  background-color: black;
+  background-color: #4f0404;
   color: white;
   font-size: 24px;
   padding: 0 1em;
@@ -54,9 +52,9 @@ main {
   height: 9rem;
 }
 
-.header__opciones span{
+.header__opciones span {
   cursor: pointer;
-    transition: transform 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .header__opciones span:hover {
